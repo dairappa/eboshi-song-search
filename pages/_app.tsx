@@ -1,4 +1,4 @@
-import "tailwindcss/tailwind.css";
+import "../styles/global.css";
 import React from "react";
 import "nes.css/css/nes.css"
 
