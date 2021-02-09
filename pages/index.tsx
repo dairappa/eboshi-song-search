@@ -1,48 +1,103 @@
 import Head from 'next/head'
-import React from "react";
+import React, {useState} from "react";
+import {songs, Utawaku} from "../data/songs"
 
+type SortOrder = "newest" | "oldest"
 
-export const Home = (): JSX.Element => (
-    <div>
-        <Head>
-            <title>VOMS song search</title>
-            <link rel="icon" href="/favicon.ico"/>
-        </Head>
+export const Home = (): JSX.Element => {
+    const [searchText, setSearchText] = useState("")
+    const [sortOrder, setSortOrder] = useState<SortOrder>("newest")
 
-        <div className="container mx-auto items-center">
-            <h1 className="text-3xl">Hello World</h1>
-            <button className="2xl:bg-green-100"
-                onClick={() => {
-                    window.alert('With typescript and Jest')
-                }}
-            >
-                Test Button
-            </button>
-            <button type="button" className="nes-btn is-primary misaki">押す</button>
+    function matchSearch(song: Utawaku["songs"][0]) {
+        if (!searchText) {
+            return true
+        }
 
-            <div className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
-                <div className="flex-shrink-0">
-                    <div className="text-xl font-medium text-black">ChitChat</div>
+        return song.song_name.includes(searchText) || song.artist.includes(searchText)
+    }
+
+    function compareSortOrder(right: Utawaku, left: Utawaku) {
+        return (right.number - left.number) * (sortOrder == "newest" ? 1 : -1);
+    }
+
+    return (
+
+        <div className="misaki">
+            <Head>
+                <title>MONOE song search</title>
+                <link rel="icon" href="/favicon.ico"/>
+            </Head>
+
+            <div className="container mx-auto items-center p-5 border-black border-4 m-0 md:m-5 md:mb-0">
+                <h1 className="text-4xl">MONOE Song Search</h1>
+                <div className="flex flex-row items-end">
+                    <div className="nes-field flex-grow md:max-w-2xl">
+                        <input type="text" id="name_field" className="nes-input h-12" placeholder="曲名、アーティスト"
+                               value={searchText}
+                               onChange={event => setSearchText(event.target.value)}
+                        />
+                    </div>
+                    <label className="ml-3 text-xl">
+                        <input type="radio" className="nes-radio" name="answer" checked={sortOrder === "newest"}
+                               onChange={event => setSortOrder(event.target.checked ? "newest" : "oldest")}/>
+                        <span>新しい順</span>
+                    </label>
+
+                    <label className="text-xl">
+                        <input type="radio" className="nes-radio" name="answer" checked={sortOrder === "oldest"}
+                               onChange={event => setSortOrder(event.target.checked ? "oldest" : "newest")}/>
+                        <span>古い順</span>
+                    </label>
                 </div>
-                <div>
-                    <p className="text-gray-500">You have a new message!</p>
+
+                <div className="nes-table-responsive mt-5">
+                    <table className="nes-table is-bordered table-fixed w-auto md:w-11/12">
+                        <thead>
+                        <tr>
+                            <th className="w-auto md:w-10">#</th>
+                            <th className="w-1/2 md:w-1/3">アーティスト</th>
+                            <th className="w-auto">曲名</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {
+                            songs
+                                .sort((left,right) => {return compareSortOrder(right, left)})
+                                .flatMap(waku => waku.songs
+                                .filter(song => matchSearch(song))
+                                .map((song, index) => (
+                                <tr key={`${waku.id}-${index}`}>
+                                    <td>{`#${waku.number}`}</td>
+                                    <td>{song.artist}</td>
+                                    <td>
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href={`https://youtu.be/${waku.id}?&t=${song.time_start}s`}>
+                                            {song.song_name}
+                                        </a>
+                                    </td>
+                                </tr>
+                            )))
+                        }
+                        </tbody>
+                    </table>
                 </div>
             </div>
+
+            <footer className="container flex flex-row-reverse items-end">
+                <a
+                    href="https://twitter.com/dairappa"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Created by @dairappa
+                </a>
+            </footer>
+
+
         </div>
-
-        <footer>
-            <a
-                href="https://twitter.com/dairappa"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                Created by @dairappa
-            </a>
-        </footer>
-
-
-
-    </div>
-)
+    );
+}
 
 export default Home
