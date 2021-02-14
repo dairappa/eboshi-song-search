@@ -380,6 +380,48 @@ export const songs: Utawaku[] = [
         ]
     },
 
+    {
+        kind: 'Monoe',
+        number: 9,
+        id: '9dhfkxdFTvA',
+        songs: [
+            {
+                'artist': 'n-buna',
+                'song_name': '夜明けと蛍',
+                'time_start': "4:05"
+            },
+            {
+                'artist': 'YOASOBI',
+                'song_name': 'たぶん',
+                'time_start': "15:28"
+            },
+            {
+                'artist': 'ギガP',
+                'song_name': 'ヒビカセ',
+                'time_start': "24:20"
+            },
+            {
+                'artist': 'mothy',
+                'song_name': '悪ノ召使',
+                'time_start': "37:20"
+            },
+            {
+                'artist': '米津玄師',
+                'song_name': '感電',
+                'time_start': "57:47"
+            },
+            {
+                'artist': 'koyori',
+                'song_name': 'スキスキ絶頂症',
+                'time_start': "1:06:07"
+            },
+            {
+                'artist': 'ゆうゆ',
+                'song_name': '天樂',
+                'time_start': "1:17:04"
+            }
+        ]
+    },
 
 
 ]
