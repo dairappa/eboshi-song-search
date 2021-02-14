@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import React, {useState} from "react";
 import {songs, Utawaku} from "../data/songs"
+import {Time, timeToNumber} from "../lib/time";
 
 type SortOrder = "newest" | "oldest"
 
@@ -20,8 +21,8 @@ export const Home = (): JSX.Element => {
         return (right.number - left.number) * (sortOrder == "newest" ? 1 : -1);
     }
 
-    function convertToSecond(time_start: string) {
-        return 0;
+    function convertToSecond(time_start: Time) {
+        return timeToNumber(time_start);
     }
 
     return (
@@ -84,7 +85,7 @@ export const Home = (): JSX.Element => {
                                                     <a
                                                         target="_blank"
                                                         rel="noopener noreferrer"
-                                                        href={`https://youtu.be/${waku.id}?&t=${song.time_start}s`}>
+                                                        href={`https://youtu.be/${waku.id}?&t=${time_start}s`}>
                                                         {song.song_name}
                                                     </a>
                                                 </td>
