@@ -20,6 +20,10 @@ export const Home = (): JSX.Element => {
         return (right.number - left.number) * (sortOrder == "newest" ? 1 : -1);
     }
 
+    function convertToSecond(time_start: string) {
+        return 0;
+    }
+
     return (
 
         <div className="misaki">
@@ -30,24 +34,26 @@ export const Home = (): JSX.Element => {
 
             <div className="container mx-auto items-center p-5 border-black border-4 m-0 md:m-5 md:mb-0">
                 <h1 className="text-4xl">MONOE Song Search</h1>
-                <div className="flex flex-row items-end">
+                <div className="flex flex-col md:flex-row md:items-end">
                     <div className="nes-field flex-grow md:max-w-2xl">
                         <input type="text" id="name_field" className="nes-input h-12" placeholder="曲名、アーティスト"
                                value={searchText}
                                onChange={event => setSearchText(event.target.value)}
                         />
                     </div>
-                    <label className="ml-3 text-xl">
-                        <input type="radio" className="nes-radio" name="answer" checked={sortOrder === "newest"}
-                               onChange={event => setSortOrder(event.target.checked ? "newest" : "oldest")}/>
-                        <span>新しい順</span>
-                    </label>
+                    <div>
+                        <label className="ml-3 text-lg md:text-xl">
+                            <input type="radio" className="nes-radio" name="answer" checked={sortOrder === "newest"}
+                                   onChange={event => setSortOrder(event.target.checked ? "newest" : "oldest")}/>
+                            <span>新しい順</span>
+                        </label>
 
-                    <label className="text-xl">
-                        <input type="radio" className="nes-radio" name="answer" checked={sortOrder === "oldest"}
-                               onChange={event => setSortOrder(event.target.checked ? "oldest" : "newest")}/>
-                        <span>古い順</span>
-                    </label>
+                        <label className="text-lg md:text-xl">
+                            <input type="radio" className="nes-radio" name="answer" checked={sortOrder === "oldest"}
+                                   onChange={event => setSortOrder(event.target.checked ? "oldest" : "newest")}/>
+                            <span>古い順</span>
+                        </label>
+                    </div>
                 </div>
 
                 <div className="nes-table-responsive mt-5">
@@ -62,23 +68,29 @@ export const Home = (): JSX.Element => {
                         <tbody>
                         {
                             songs
-                                .sort((left,right) => {return compareSortOrder(right, left)})
+                                .sort((left, right) => {
+                                    return compareSortOrder(right, left)
+                                })
                                 .flatMap(waku => waku.songs
-                                .filter(song => matchSearch(song))
-                                .map((song, index) => (
-                                <tr key={`${waku.id}-${index}`}>
-                                    <td>{`#${waku.number}`}</td>
-                                    <td>{song.artist}</td>
-                                    <td>
-                                        <a
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            href={`https://youtu.be/${waku.id}?&t=${song.time_start}s`}>
-                                            {song.song_name}
-                                        </a>
-                                    </td>
-                                </tr>
-                            )))
+                                    .filter(song => matchSearch(song))
+                                    .map((song, index) => {
+                                        const time_start = typeof song.time_start === "number" ? song.time_start : convertToSecond(song.time_start)
+
+                                        return (
+                                            <tr key={`${waku.id}-${index}`}>
+                                                <td>{`#${waku.number}`}</td>
+                                                <td>{song.artist}</td>
+                                                <td>
+                                                    <a
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        href={`https://youtu.be/${waku.id}?&t=${song.time_start}s`}>
+                                                        {song.song_name}
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        );
+                                    }))
                         }
                         </tbody>
                     </table>
