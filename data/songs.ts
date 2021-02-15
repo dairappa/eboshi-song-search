@@ -578,6 +578,83 @@ export const songs: Utawaku[] = [
             }
         ]
     },
+    {
+        kind: 'Monoe',
+        number: 13,
+        id: 'VGlckLlEVzs',
+        songs: [
+            {
+                'artist': 'ねこぼーろ',
+                'song_name': '共感性おばけ',
+                'time_start': "4:50"
+            },
+            {
+                'artist': 'バルーン',
+                'song_name': 'シャルル',
+                'time_start': "14:17"
+            },
+            {
+                'artist': 'Halosy',
+                'song_name': 'Fire◎Flower',
+                'time_start': "26:16"
+            },
+            {
+                'artist': 'かいりきベア',
+                'song_name': 'ネロイズム',
+                'time_start': "32:05"
+            },
+            {
+                'artist': 'ぬゆり',
+                'song_name': 'プロトディスコ',
+                'time_start': "37:50"
+            },
+            {
+                'artist': '奥華子',
+                'song_name': '変わらないもの',
+                'time_start': "47:29"
+            },
+            {
+                'artist': 'LiSA',
+                'song_name': '紅蓮華',
+                'time_start': "56:47"
+            },
+            {
+                'artist': 'YOASOBI',
+                'song_name': 'ハルジオン',
+                'time_start': "1:01:44"
+            },
+            {
+                'artist': 'ONE OK ROCK',
+                'song_name': '完全感覚Dreamer',
+                'time_start': "1:13:40"
+            },
+            {
+                'artist': 'こじろー',
+                'song_name': '臨海ダイバー',
+                'time_start': "1:21:20"
+            },
+            {
+                'artist': 'かいりきベア',
+                'song_name': 'ベノム',
+                'time_start': "1:37:45"
+            },
+            {
+                'artist': 'ねじ式',
+                'song_name': 'パライソ・パライソ',
+                'time_start': "1:45:13"
+            },
+            {
+                'artist': 'ろくろ',
+                'song_name': 'スロウダウナー',
+                'time_start': "1:51:04"
+            },
+            {
+                'artist': 'みきとP',
+                'song_name': '小夜子',
+                'time_start': "1:59:34"
+            }
+        ]
+    },
 
 
 ]
