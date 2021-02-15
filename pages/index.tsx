@@ -112,7 +112,7 @@ export const Home = (): JSX.Element => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Created by @dairappa
+                    Maintained by @dairappa
                 </a>
             </footer>
 
