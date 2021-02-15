@@ -459,6 +459,73 @@ export const songs: Utawaku[] = [
             }
         ]
     },
+    {
+        kind: 'Monoe',
+        number: 11,
+        id: 'YpJLwq4aFDg',
+        songs: [
+            {
+                'artist': 'スペクタクルP',
+                'song_name': 'The Beast',
+                'time_start': "6:44"
+            },
+            {
+                'artist': '蝶々P',
+                'song_name': 'え？あぁ、そう。',
+                'time_start': "14:07"
+            },
+            {
+                'artist': '羽生まゐご',
+                'song_name': '阿吽のビーツ',
+                'time_start': "24:59"
+            },
+            {
+                'artist': 'トーマ',
+                'song_name': 'アザレアの亡霊',
+                'time_start': "33:13"
+            },
+            {
+                'artist': '奏音69',
+                'song_name': 'クイーンオブハート',
+                'time_start': "42:12"
+            },
+            {
+                'artist': '女王蜂',
+                'song_name': 'BL',
+                'time_start': "50:50"
+            },
+            {
+                'artist': '女王蜂',
+                'song_name': '火炎',
+                'time_start': "57:28"
+            },
+            {
+                'artist': '女王蜂',
+                'song_name': '火炎',
+                'time_start': "57:28"
+            },
+            {
+                'artist': '女王蜂',
+                'song_name': '火炎',
+                'time_start': "57:28"
+            },
+            {
+                'artist': 'ツユ',
+                'song_name': 'あの世行きのバスに乗ってさらば。',
+                'time_start': "1:07:44"
+            },
+            {
+                'artist': 'niki',
+                'song_name': '-ERROR。',
+                'time_start': "1:18:36"
+            },
+            {
+                'artist': '須田景凪',
+                'song_name': 'あの世行きのバスに乗ってさらば。',
+                'time_start': "1:27:19"
+            }
+        ]
+    },
 
 
 ]
