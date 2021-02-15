@@ -422,6 +422,43 @@ export const songs: Utawaku[] = [
             }
         ]
     },
+    {
+        kind: 'Monoe',
+        number: 10,
+        id: 'cT-xRwAlfVg',
+        songs: [
+            {
+                'artist': 'ササノマリイ',
+                'song_name': '自傷無色(アカペラ)',
+                'time_start': "7:38"
+            },
+            {
+                'artist': 'ササノマリイ',
+                'song_name': '自傷無色',
+                'time_start': "8:18"
+            },
+            {
+                'artist': 'DECO*27',
+                'song_name': '乙女解剖',
+                'time_start': "18:42"
+            },
+            {
+                'artist': 'Kanaria',
+                'song_name': 'KING',
+                'time_start': "29:08"
+            },
+            {
+                'artist': 'mothy',
+                'song_name': '比較症候群',
+                'time_start': "39:01"
+            },
+            {
+                'artist': 'youまん',
+                'song_name': 'タイニーバニー',
+                'time_start': "54:20"
+            }
+        ]
+    },
 
 
 ]
