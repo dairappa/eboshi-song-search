@@ -36,9 +36,9 @@ export const Home = (): JSX.Element => {
 
                 return (
                     <tr key={`${waku.id}-${index}`}>
-                        <td>{`#${waku.number}`}</td>
-                        <td>{song.artist}</td>
-                        <td>
+                        <td className="border-main">{`#${waku.number}`}</td>
+                        <td className="border-main">{song.artist}</td>
+                        <td className="border-main">
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -53,17 +53,17 @@ export const Home = (): JSX.Element => {
 
     return (
 
-        <div className="misaki">
+        <div className="misaki bg-sub font-main">
             <Head>
                 <title>MONOE song search</title>
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
-            <div className="container mx-auto items-center p-5 border-black border-4 m-0 md:m-5 md:mb-0">
-                <h1 className="text-4xl">MONOE Song Search</h1>
+            <div className="container mx-auto items-center p-5 bg-subsub border-main border-4 m-0 md:m-5 md:mb-0">
+                <h1 className="text-4xl"><span className="font-accent">MONOE</span> Song Search</h1>
                 <div className="flex flex-col md:flex-row md:items-end">
                     <div className="nes-field flex-grow md:max-w-2xl">
-                        <input type="text" id="name_field" className="nes-input h-12 " placeholder="曲名、アーティスト"
+                        <input type="text" id="name_field" className="nes-input h-12 outline-main bg-subsub" placeholder="曲名、アーティスト"
                                value={searchText}
                                onChange={event => setSearchText(event.target.value)}
                         />
@@ -89,12 +89,12 @@ export const Home = (): JSX.Element => {
                 </div>
 
                 <div className="nes-table-responsive mt-5 pl-0 p-2">
-                    <table className="nes-table is-bordered table-fixed w-auto md:w-full">
+                    <table className="nes-table outline-main bg-subsub is-bordered table-fixed w-auto md:w-full">
                         <thead>
                         <tr>
-                            <th className="w-auto md:w-11">#</th>
-                            <th className="w-1/2 md:w-1/3">アーティスト</th>
-                            <th className="w-auto">曲名</th>
+                            <th className="w-auto md:w-11 border-main">#</th>
+                            <th className="w-1/2 md:w-1/3 border-main">アーティスト</th>
+                            <th className="w-auto border-main">曲名</th>
                         </tr>
                         </thead>
                         <tbody>

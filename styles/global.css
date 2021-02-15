@@ -11,9 +11,48 @@
     font-family: 'misakigothic', sans-serif;
 }
 
-.btn {
-    @apply py-2 px-4 font-semibold rounded-lg shadow-md;
+.bg-main {
+    background-color: #3E4F65;
 }
-.btn-green {
-    @apply text-white bg-green-500 hover:bg-green-700;
+
+.font-main {
+    color: #3E4F65;
 }
+
+.border-main {
+    border-color: #3E4F65 !important;
+}
+
+.outline-main {
+    outline-color: #3e4f65;
+    border-image-source: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8" ?><svg version="1.1" width="5" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2 1 h1 v1 h-1 z M1 2 h1 v1 h-1 z M3 2 h1 v1 h-1 z M2 3 h1 v1 h-1 z" fill="rgb(62,79,101)" /></svg>') !important;
+}
+
+
+.bg-sub {
+    background-color: #DAE1EA;
+}
+
+.bg-subsub {
+    background-color: #F5F5F5 !important;
+}
+
+.font-accent {
+    color: #EE707D;
+}
+
+.border-accent {
+    border-color: #EE707D;
+}
+
+html {
+    background-color: #DAE1EA;
+}
+
+
+
+
+
+
+
+
