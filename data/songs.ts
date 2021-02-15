@@ -500,14 +500,66 @@ export const songs: Utawaku[] = [
                 'time_start': "57:28"
             },
             {
-                'artist': '女王蜂',
-                'song_name': '火炎',
-                'time_start': "57:28"
+                'artist': 'ツユ',
+                'song_name': 'あの世行きのバスに乗ってさらば。',
+                'time_start': "1:07:44"
             },
             {
-                'artist': '女王蜂',
-                'song_name': '火炎',
-                'time_start': "57:28"
+                'artist': 'niki',
+                'song_name': '-ERROR。',
+                'time_start': "1:18:36"
+            },
+            {
+                'artist': '須田景凪',
+                'song_name': 'あの世行きのバスに乗ってさらば。',
+                'time_start': "1:27:19"
+            }
+        ]
+    },
+    {
+        kind: 'Monoe',
+        number: 12,
+        id: 'y5tBMJsaRj8',
+        songs: [
+            {
+                'artist': 'P.I.N.A.',
+                'song_name': 'レッド・パージ！！！',
+                'time_start': "8:40"
+            },
+            {
+                'artist': 'Ayase',
+                'song_name': '幽霊東京',
+                'time_start': "24:46"
+            },
+            {
+                'artist': 'SEVENTHLINKS',
+                'song_name': 'p.h',
+                'time_start': "32:57"
+            },
+            {
+                'artist': 'DIVELA',
+                'song_name': 'ぼかろころしあむ',
+                'time_start': "38:55"
+            },
+            {
+                'artist': 'DIVELA',
+                'song_name': 'ぼかろころしあむ（リベンジのリベンジ）',
+                'time_start': "39:51"
+            },
+            {
+                'artist': 'かいりきベア',
+                'song_name': 'ダーリンダンス',
+                'time_start': "44:13"
+            },
+            {
+                'artist': '須田景凪',
+                'song_name': '花瓶に触れた',
+                'time_start': "59:26"
+            },
+            {
+                'artist': 'supercell',
+                'song_name': 'ブラック★ロックシューター',
+                'time_start': "1:08:52"
             },
             {
                 'artist': 'ツユ',
