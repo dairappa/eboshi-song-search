@@ -4,6 +4,7 @@ import 'nes.css/css/nes.css'
 
 function MyApp({ Component, pageProps }) {
   const basePath = process.env.basePath ?? ''
+  const fontPath = `${basePath}/fonts/misaki_gothic.ttf`
 
   return (
     <>
@@ -11,7 +12,7 @@ function MyApp({ Component, pageProps }) {
       <style global jsx>{`
         @font-face {
           font-family: 'misakigothic';
-          src: url('${basePath}/fonts/misaki_gothic.ttf') format('truetype');
+          src: url('${fontPath}') format('truetype');
         }
       `}</style>
     </>
