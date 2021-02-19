@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'misakigothic';
-  src: url('/fonts/misaki_gothic.ttf') format('truetype');
-}
-
 $main-color: #3e4f65;
 $sub-color: #dae1ea;
 $subsub-color: #f5f5f5;
