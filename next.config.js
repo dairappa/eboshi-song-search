@@ -1,7 +1,7 @@
-const { PHASE_PRODUCTION_BUILD } = require('next/constants');
+const { PHASE_PRODUCTION_BUILD, PHASE_EXPORT } = require('next/constants');
 
 module.exports = (phase) => {
-  if (phase === PHASE_PRODUCTION_BUILD) {
+  if (phase === PHASE_PRODUCTION_BUILD || phase === PHASE_EXPORT) {
     return { assetPrefix: 'liver-song-search' }; //for github pages
   }
   return {};
