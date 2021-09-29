@@ -36,16 +36,6 @@ export const songs: Utawaku[] = [
         timeStart: '22:42',
       },
       {
-        artist: 'カンザキイオリ',
-        songName: '命に嫌われている（三回目）',
-        timeStart: 2226,
-      },
-      {
-        artist: 'DECO*27',
-        songName: 'ヴァンパイア',
-        timeStart: 2333,
-      },
-      {
         artist: 'n-buna',
         songName: '夜明けと蛍',
         timeStart: '28:43',
