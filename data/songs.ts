@@ -47,4 +47,35 @@ export const songs: Utawaku[] = [
       },
     ],
   },
+  {
+    number: 2,
+    id: 'fqIVh5DiiPA',
+    songs: [
+      {
+        artist: 'ゆうゆ',
+        songName: '深海少女',
+        timeStart: '9:44',
+      },
+      {
+        artist: 'ナノウ',
+        songName: 'ハロ・ハワユ',
+        timeStart: '16:44',
+      },
+      {
+        artist: 'Ayase',
+        songName: 'シネマ',
+        timeStart: '59:42',
+      },
+      {
+        artist: 'wotaku',
+        songName: 'マフィア',
+        timeStart: '22:42',
+      },
+      {
+        artist: '煮ル果実',
+        songName: 'ヲズワルド',
+        timeStart: '1:22:27',
+      },
+    ],
+  },
 ]
