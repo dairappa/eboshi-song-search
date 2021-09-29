@@ -78,4 +78,55 @@ export const songs: Utawaku[] = [
       },
     ],
   },
+  {
+    number: 3,
+    id: 'eFucjAQI28k',
+    songs: [
+      {
+        artist: 'Ado',
+        songName: '煮ル果実',
+        timeStart: '17:04',
+      },
+      {
+        artist: 'かいりきベア',
+        songName: 'メンタルチェーンソー',
+        timeStart: '25:57',
+      },
+      {
+        artist: '¿?shimon',
+        songName: '偽物人間40号',
+        timeStart: '39:55',
+      },
+      {
+        artist: 'parade × Belle',
+        songName: 'U',
+        timeStart: '50:55',
+      },
+      {
+        artist: 'Kanaria',
+        songName: 'EYE',
+        timeStart: '1:00:07',
+      },
+      {
+        artist: 'うたたP',
+        songName: 'こちら、幸福安心委員会です。',
+        timeStart: '1:03:55',
+      },
+      {
+        artist: 'MARETU',
+        songName: 'ナミダ',
+        timeStart: '1:25:53',
+      },
+      {
+        artist: 'MARETU',
+        songName: 'ナミダ',
+        timeStart: '1:25:53',
+      },
+      {
+        artist: 'Eight',
+        songName: 'とても素敵な六月でした',
+        timeStart: '2:08:07',
+      },
+    ],
+  },
 ]
