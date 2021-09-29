@@ -61,13 +61,13 @@ export const Home = (): JSX.Element => {
   return (
     <div className="misaki bg-sub font-main">
       <Head>
-        <title>MONOE song search</title>
+        <title>EBOSHI song search</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className="container mx-auto items-center p-5 bg-subsub border-main border-4 m-0 md:m-5 md:mb-0">
         <h1 className="text-4xl">
-          <span className="font-accent">MONOE</span> Song Search
+          <span className="font-accent">EBOSHI</span> Song Search
         </h1>
         <div className="flex flex-col md:flex-row md:items-end">
           <div className="nes-field flex-grow md:max-w-2xl">
