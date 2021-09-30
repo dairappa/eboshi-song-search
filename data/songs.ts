@@ -129,4 +129,50 @@ export const songs: Utawaku[] = [
       },
     ],
   },
+  {
+    number: 4,
+    id: 'hEBGEyrf2DM',
+    songs: [
+      {
+        artist: 'ツユ',
+        songName: 'アサガオの散る頃に',
+        timeStart: '6:29',
+      },
+      {
+        artist: 'yama',
+        songName: '春を告げる',
+        timeStart: '12:38',
+      },
+      {
+        artist: 'WOWAKA',
+        songName: '裏表ラバーズ',
+        timeStart: '40:48',
+      },
+      {
+        artist: 'kemu',
+        songName: '地球最後の告白を',
+        timeStart: '51:28',
+      },
+      {
+        artist: 'のぼる↑',
+        songName: 'モノクロ∞ブルースカイ',
+        timeStart: '1:03:23',
+      },
+      {
+        artist: 'DECO*27',
+        songName: 'シンデレラ',
+        timeStart: '1:14:45',
+      },
+      {
+        artist: 'syudou',
+        songName: '爆笑',
+        timeStart: '1:20:35',
+      },
+      {
+        artist: '米津玄師',
+        songName: '死神　',
+        timeStart: '1:28:20',
+      },
+    ],
+  },
 ]
