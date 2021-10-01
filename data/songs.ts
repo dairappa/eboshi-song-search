@@ -4,7 +4,7 @@ export type Utawaku = {
   number: number
   songs: {
     artist: string
-    timeStart: number | Time
+    timeStart: Time
     songName: string
   }[]
   id: string
@@ -177,7 +177,7 @@ export const songs: Utawaku[] = [
   },
   {
     number: 5,
-    id: 'hEBGEyrf2DM',
+    id: 'XAIMlCe_Dis',
     songs: [
       {
         artist: 'ツミキ',

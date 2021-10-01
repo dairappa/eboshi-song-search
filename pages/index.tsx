@@ -35,10 +35,7 @@ export const Home = (): JSX.Element => {
       waku.songs
         .filter((song) => matchSearch(song))
         .map((song, index) => {
-          const timeStart =
-            typeof song.timeStart === 'number'
-              ? song.timeStart
-              : convertToSecond(song.timeStart)
+          const timeStart = convertToSecond(song.timeStart)
 
           return (
             <tr key={`${waku.id}-${index}`}>
