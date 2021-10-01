@@ -297,4 +297,55 @@ export const songs: Utawaku[] = [
       },
     ],
   },
+  {
+    number: 7,
+    id: 'etAkzBpfT_s',
+    songs: [
+      {
+        songName: '絶え間なく藍色',
+        timeStart: '8:24',
+        artist: '獅子志司',
+      },
+      {
+        songName: 'flos',
+        timeStart: '24:03',
+        artist: 'R Sound Design',
+      },
+      {
+        songName: '命ばっかり',
+        timeStart: '51:19',
+        artist: 'ぬゆり',
+      },
+      {
+        songName: 'エゴロック',
+        timeStart: '1:00:23',
+        artist: 'すりぃ',
+      },
+      {
+        songName: '邪道',
+        timeStart: '1:07:07',
+        artist: 'Peg',
+      },
+      {
+        songName: 'メルティランドナイトメア',
+        timeStart: '1:13:15',
+        artist: 'はるまきごはん',
+      },
+      {
+        songName: 'potatoになっていく',
+        timeStart: '1:20:41',
+        artist: 'Neru',
+      },
+      {
+        songName: 'グッバイ宣言',
+        timeStart: '1:35:27',
+        artist: 'Chinozo',
+      },
+      {
+        songName: 'ショットガン・ナウル',
+        timeStart: '1:46:50',
+        artist: 'Chinozo',
+      },
+    ],
+  },
 ]
