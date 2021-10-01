@@ -256,4 +256,45 @@ export const songs: Utawaku[] = [
       },
     ],
   },
+  {
+    number: 6,
+    id: 'MCwegsI5Jo8',
+    songs: [
+      {
+        songName: 'ノンブレスオブリージュ',
+        timeStart: '7:38',
+        artist: 'ピノキオピー',
+      },
+      {
+        songName: 'エンヴィーベイビー',
+        timeStart: '13:27',
+        artist: 'Kanaria',
+      },
+      {
+        songName: 'ベノム',
+        timeStart: '17:50',
+        artist: 'かいりきベア',
+      },
+      {
+        songName: 'ガランド',
+        timeStart: '25:16',
+        artist: 'ピコン',
+      },
+      {
+        songName: 'ヲズワルド',
+        timeStart: '32:08',
+        artist: '煮ル果実',
+      },
+      {
+        songName: '季節は次々死んでいく',
+        timeStart: '40:10',
+        artist: 'amazarashi',
+      },
+      {
+        songName: '夜に駆ける',
+        timeStart: '55:10',
+        artist: 'YOASOBI',
+      },
+    ],
+  },
 ]
