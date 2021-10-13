@@ -348,4 +348,55 @@ export const songs: Utawaku[] = [
       },
     ],
   },
+  {
+    number: 8,
+    id: 'rVejNL3CYlE',
+    songs: [
+      {
+        songName: '妄想税',
+        timeStart: '5:18',
+        artist: 'DECO*27',
+      },
+      {
+        songName: '悪魔の踊り方',
+        timeStart: '18:45',
+        artist: 'キタニタツヤ',
+      },
+      {
+        songName: 'お願いダーリン',
+        timeStart: '34:40',
+        artist: 'ナナホシ管弦楽団',
+      },
+      {
+        songName: 'シニカルナイトプラン',
+        timeStart: '34:40',
+        artist: 'Ayase',
+      },
+      {
+        songName: 'モザイクロール(Reloaded)',
+        timeStart: '43:30',
+        artist: 'DECO*27',
+      },
+      {
+        songName: 'シャンティ',
+        timeStart: '49:01',
+        artist: 'wotaku',
+      },
+      {
+        songName: 'ラグトレイン',
+        timeStart: '59:29',
+        artist: '稲葉曇',
+      },
+      {
+        songName: 'きゅうくらりん',
+        timeStart: '1:06:28',
+        artist: 'いよわ',
+      },
+      {
+        songName: 'パンダヒーロー',
+        timeStart: '1:14:34',
+        artist: 'ハチ',
+      },
+    ],
+  },
 ]
