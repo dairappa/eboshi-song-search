@@ -399,4 +399,45 @@ export const songs: Utawaku[] = [
       },
     ],
   },
+  {
+    number: 9,
+    id: 'vJtlW3dokkM',
+    songs: [
+      {
+        songName: '惑星ループ',
+        timeStart: '8:28',
+        artist: 'ナユタン星人',
+      },
+      {
+        songName: '自堕落',
+        timeStart: '18:45',
+        artist: 'コメダワラ',
+      },
+      {
+        songName: 'マーシャル・マキシマイザー',
+        timeStart: '29:51',
+        artist: '柊マグネタイト',
+      },
+      {
+        songName: '阿修羅ちゃん',
+        timeStart: '50:15',
+        artist: 'Ado',
+      },
+      {
+        songName: '神っぽいな',
+        timeStart: '56:15',
+        artist: 'ピノキオピー',
+      },
+      {
+        songName: 'ダウナーウィッチ',
+        timeStart: '1:11:06',
+        artist: '廉',
+      },
+      {
+        songName: '死神',
+        timeStart: '1:19:31',
+        artist: '米津玄師',
+      },
+    ],
+  },
 ]
