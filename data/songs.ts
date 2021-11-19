@@ -118,11 +118,6 @@ export const songs: Utawaku[] = [
         timeStart: '1:25:53',
       },
       {
-        artist: 'MARETU',
-        songName: 'ナミダ',
-        timeStart: '1:25:53',
-      },
-      {
         artist: 'Eight',
         songName: 'とても素敵な六月でした',
         timeStart: '2:08:07',
