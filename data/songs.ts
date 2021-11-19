@@ -343,4 +343,96 @@ export const songs: Utawaku[] = [
       },
     ],
   },
+  {
+    number: 8,
+    id: 'rVejNL3CYlE',
+    songs: [
+      {
+        songName: '妄想税',
+        timeStart: '5:18',
+        artist: 'DECO*27',
+      },
+      {
+        songName: '悪魔の踊り方',
+        timeStart: '18:45',
+        artist: 'キタニタツヤ',
+      },
+      {
+        songName: 'お願いダーリン',
+        timeStart: '34:40',
+        artist: 'ナナホシ管弦楽団',
+      },
+      {
+        songName: 'シニカルナイトプラン',
+        timeStart: '34:40',
+        artist: 'Ayase',
+      },
+      {
+        songName: 'モザイクロール(Reloaded)',
+        timeStart: '43:30',
+        artist: 'DECO*27',
+      },
+      {
+        songName: 'シャンティ',
+        timeStart: '49:01',
+        artist: 'wotaku',
+      },
+      {
+        songName: 'ラグトレイン',
+        timeStart: '59:29',
+        artist: '稲葉曇',
+      },
+      {
+        songName: 'きゅうくらりん',
+        timeStart: '1:06:28',
+        artist: 'いよわ',
+      },
+      {
+        songName: 'パンダヒーロー',
+        timeStart: '1:14:34',
+        artist: 'ハチ',
+      },
+    ],
+  },
+  {
+    number: 9,
+    id: 'vJtlW3dokkM',
+    songs: [
+      {
+        songName: '惑星ループ',
+        timeStart: '8:28',
+        artist: 'ナユタン星人',
+      },
+      {
+        songName: '自堕落',
+        timeStart: '18:45',
+        artist: 'コメダワラ',
+      },
+      {
+        songName: 'マーシャル・マキシマイザー',
+        timeStart: '29:51',
+        artist: '柊マグネタイト',
+      },
+      {
+        songName: '阿修羅ちゃん',
+        timeStart: '50:15',
+        artist: 'Ado',
+      },
+      {
+        songName: '神っぽいな',
+        timeStart: '56:15',
+        artist: 'ピノキオピー',
+      },
+      {
+        songName: 'ダウナーウィッチ',
+        timeStart: '1:11:06',
+        artist: '廉',
+      },
+      {
+        songName: '死神',
+        timeStart: '1:19:31',
+        artist: '米津玄師',
+      },
+    ],
+  },
 ]
