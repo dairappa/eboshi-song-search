@@ -450,11 +450,6 @@ export const songs: Utawaku[] = [
         artist: 'みきとP',
       },
       {
-        songName: 'マーシャル・マキシマイザー',
-        timeStart: '29:51',
-        artist: '柊マグネタイト',
-      },
-      {
         songName: 'カメレオン',
         timeStart: '33:50',
         artist: 'すりぃ',
