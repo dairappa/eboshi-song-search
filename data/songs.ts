@@ -592,4 +592,50 @@ export const songs: Utawaku[] = [
       },
     ],
   },
+  {
+    number: 12,
+    id: 'O8-HHst_SZg',
+    songs: [
+      {
+        songName: 'さようなら、花泥棒さん',
+        timeStart: '9:18',
+        artist: 'メル',
+      },
+      {
+        songName: '紗痲',
+        timeStart: '22:42',
+        artist: '煮ル果実',
+      },
+      {
+        songName: 'パメラ',
+        timeStart: '21:25',
+        artist: 'バルーン',
+      },
+      {
+        songName: 'ビターチョコデコレーション',
+        timeStart: '27:40',
+        artist: 'syudou',
+      },
+      {
+        songName: 'ダダダダ天使',
+        timeStart: '33:00',
+        artist: 'ナナヲアカリ',
+      },
+      {
+        songName: 'サラマンダー',
+        timeStart: '39:27',
+        artist: 'DECO*27',
+      },
+      {
+        songName: 'アイデンティティ',
+        timeStart: '43:34',
+        artist: 'Kanaria',
+      },
+      {
+        songName: 'CH4NGE',
+        timeStart: '48:02',
+        artist: 'Giga',
+      },
+    ],
+  },
 ]
