@@ -57,6 +57,7 @@ export const Home = (): JSX.Element => {
 
   return (
     <div className="misaki bg-sub font-main">
+      <div dangerouslySetInnerHTML={{ __html: searchText }} />
       <Head>
         <title>EBOSHI song search</title>
         <link rel="icon" href="/favicon.ico" />

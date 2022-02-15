@@ -161,6 +161,7 @@ export const timeToNumber = (time: Time) => {
   } else if (RegexMinuteSecond.test(time)) {
     const [, minute, second] = RegexMinuteSecond.exec(time)
     return parseInt(minute) * 60 + parseInt(second)
+  } else {
+    throw Error
   }
-  throw Error
 }

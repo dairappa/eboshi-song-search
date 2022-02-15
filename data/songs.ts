@@ -435,4 +435,50 @@ export const songs: Utawaku[] = [
       },
     ],
   },
+  {
+    number: 10,
+    id: 'AVtJi9aT0cg',
+    songs: [
+      {
+        songName: '嗤うマネキン',
+        timeStart: '9:02',
+        artist: 'MI8k',
+      },
+      {
+        songName: 'サリシノハラ',
+        timeStart: '23:14',
+        artist: 'みきとP',
+      },
+      {
+        songName: 'マーシャル・マキシマイザー',
+        timeStart: '29:51',
+        artist: '柊マグネタイト',
+      },
+      {
+        songName: 'カメレオン',
+        timeStart: '33:50',
+        artist: 'すりぃ',
+      },
+      {
+        songName: '『エンヴィーベイビー』 x 『KING』',
+        timeStart: '46:02',
+        artist: 'Kanaria',
+      },
+      {
+        songName: 'パメラ',
+        timeStart: '59:06',
+        artist: 'バルーン',
+      },
+      {
+        songName: '月のワルツ',
+        timeStart: '1:05:16',
+        artist: '諫山実生',
+      },
+      {
+        songName: 'flos',
+        timeStart: '1:15:44',
+        artist: 'R Sound Design',
+      },
+    ],
+  },
 ]
