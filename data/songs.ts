@@ -476,4 +476,120 @@ export const songs: Utawaku[] = [
       },
     ],
   },
+  {
+    number: 11,
+    id: 'wMmkJxFbX7w',
+    songs: [
+      {
+        songName: '怪物',
+        timeStart: '6:02',
+        artist: 'YOASOBI',
+      },
+      {
+        songName: 'アニマル',
+        timeStart: '12:42',
+        artist: 'DECO*27',
+      },
+      {
+        songName: 'パメラ',
+        timeStart: '21:25',
+        artist: 'バルーン',
+      },
+      {
+        songName: 'ノンブレスオブリージュ',
+        timeStart: '27:46',
+        artist: 'ピノキオピー',
+      },
+      {
+        songName: 'U',
+        timeStart: '34:33',
+        artist: 'parade × Belle',
+      },
+      {
+        songName: 'ロウワー',
+        timeStart: '41:05',
+        artist: 'ぬゆり',
+      },
+      {
+        songName: 'エゴロック',
+        timeStart: '56:38',
+        artist: 'すりぃ',
+      },
+      {
+        songName: '踊',
+        timeStart: '1:04:30',
+        artist: 'Ado',
+      },
+      {
+        songName: 'フォニィ',
+        timeStart: '1:04:30',
+        artist: 'ツミキ',
+      },
+      {
+        songName: 'なにやってもうまくいかない',
+        timeStart: '1:19:17',
+        artist: 'meiyo',
+      },
+      {
+        songName: 'マーシャル・マキシマイザー',
+        timeStart: '1:23:20',
+        artist: '柊マグネタイト',
+      },
+      {
+        songName: 'EYE',
+        timeStart: '1:28:20',
+        artist: 'Kanaria',
+      },
+      {
+        songName: 'シャンティ',
+        timeStart: '1:32:25',
+        artist: 'wotaku',
+      },
+      {
+        songName: '神っぽいな',
+        timeStart: '1:38:24',
+        artist: 'ピノキオピー',
+      },
+      {
+        songName: 'エンヴィーベイビー',
+        timeStart: '1:45:36',
+        artist: 'Kanaria',
+      },
+      {
+        songName: 'ショットガン・ナウル',
+        timeStart: '1:47:58',
+        artist: 'Chinozo',
+      },
+      {
+        songName: 'シンデレラ',
+        timeStart: '1:51:24',
+        artist: 'DECO*27',
+      },
+      {
+        songName: '三原色',
+        timeStart: '2:03:20',
+        artist: 'YOASOBI',
+      },
+      {
+        songName: 'ニュートンダンス',
+        timeStart: '2:09:44',
+        artist: 'ナユタン星人',
+      },
+      {
+        songName: 'ヴァンパイア',
+        timeStart: '2:15:34',
+        artist: 'ナユタン星人',
+      },
+      {
+        songName: '死神',
+        timeStart: '2:21:36',
+        artist: '米津玄師',
+      },
+      {
+        songName: 'One Last Kiss',
+        timeStart: '2:26:38',
+        artist: '宇多田ヒカル',
+      },
+    ],
+  },
 ]
